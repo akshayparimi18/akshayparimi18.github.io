@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay | Computer Vision Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .project-card:hover { transform: translateY(-5px); transition: 0.3s; }
+    </style>
+</head>
+<body class="font-sans">
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold gradient-text">AKSHAY.AI</h1>
+        <div class="space-x-6">
+            <a href="#projects" class="hover:text-sky-400">Projects</a>
+            <a href="https://github.com/akshayparimi18" target="_blank" class="hover:text-sky-400">GitHub</a>
+        </div>
+    </nav>
+    <header class="py-20 text-center max-w-4xl mx-auto px-4">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-6">Building the <span class="gradient-text">Eyes of AI</span></h2>
+        <p class="text-xl text-slate-400 mb-8">
+            B.Tech IT Graduate & Developer specializing in Computer Vision (YOLOv8, MediaPipe) and Machine Learning.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="#projects" class="border border-slate-700 hover:bg-slate-800 px-8 py-3 rounded-full font-bold transition">View Work</a>
+        </div>
+    </header>
+    <section id="projects" class="py-20 max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-12 text-center">Featured Projects</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 project-card">
+                <div class="h-48 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500 italic">
+                    [Insert YOLOv8 GIF]
+                </div>
+                <h4 class="text-xl font-bold mb-2">Football Player & Ball Tracker</h4>
+                <p class="text-slate-400 mb-4 text-sm">Real-time object detection using YOLOv8 to track athletes and ball trajectories.</p>
+                <div class="flex gap-2">
+                    <span class="bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full text-xs">Python</span>
+                    <span class="bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full text-xs">YOLOv8</span>
+                </div>
+            </div>
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 project-card">
+                <div class="h-48 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500 italic">
+                    [Insert MediaPipe GIF]
+                </div>
+                <h4 class="text-xl font-bold mb-2">AI-Powered Fitness Trainer</h4>
+                <p class="text-slate-400 mb-4 text-sm">Uses MediaPipe for pose estimation to count reps and provide real-time feedback.</p>
+                <div class="flex gap-2">
+                    <span class="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-xs">MediaPipe</span>
+                    <span class="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-xs">OpenCV</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-10 border-t border-slate-800 text-center text-slate-500">
+        <p>© 2026 Akshay. Built with Python & Passion.</p>
+    </footer>
+</body>
+</html>
