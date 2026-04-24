@@ -34,13 +34,25 @@
     </header>
     <section id="projects" class="py-20 max-w-6xl mx-auto px-4">
         <h3 class="text-3xl font-bold mb-12 text-center">Featured Projects</h3>
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 project-card">
+                <div class="h-48 bg-slate-700 rounded-xl mb-4 overflow-hidden flex items-center justify-center">
+                    <img src="images/crm_mockup.png" alt="AI-First CRM Mockup" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-xl font-bold mb-2">AI-First CRM for HCPs</h4>
+                <p class="text-slate-400 mb-4 text-sm">A full-stack CRM for Healthcare Professionals featuring autonomous agents for automated data entry and compliance validation.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-xs">FastAPI</span>
+                    <span class="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-xs">LangGraph</span>
+                    <span class="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-xs">React</span>
+                </div>
+            </div>
             <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 project-card">
                 <div class="h-48 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500 italic">
                     [Insert YOLOv8 GIF]
                 </div>
                 <h4 class="text-xl font-bold mb-2">Football Player & Ball Tracker</h4>
-                <p class="text-slate-400 mb-4 text-sm">Real-time object detection using YOLOv8 to track athletes and ball trajectories.</p>
+                <p class="text-slate-400 mb-4 text-sm">Real-time object detection using YOLOv8 to track athletes and ball trajectories with high precision.</p>
                 <div class="flex gap-2">
                     <span class="bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full text-xs">Python</span>
                     <span class="bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full text-xs">YOLOv8</span>
@@ -51,7 +63,7 @@
                     [Insert MediaPipe GIF]
                 </div>
                 <h4 class="text-xl font-bold mb-2">AI-Powered Fitness Trainer</h4>
-                <p class="text-slate-400 mb-4 text-sm">Uses MediaPipe for pose estimation to count reps and provide real-time feedback.</p>
+                <p class="text-slate-400 mb-4 text-sm">Uses MediaPipe for pose estimation to count reps and provide real-time form feedback for workouts.</p>
                 <div class="flex gap-2">
                     <span class="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-xs">MediaPipe</span>
                     <span class="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-xs">OpenCV</span>
